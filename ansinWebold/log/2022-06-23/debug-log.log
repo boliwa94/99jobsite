@@ -1,0 +1,6 @@
+2022-06-23 00:22:20.323 [SpringContextShutdownHook] DEBUG org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6aeb35e6, started on Wed Jun 22 23:41:09 JST 2022
+2022-06-23 00:22:20.327 [SpringContextShutdownHook] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+2022-06-23 00:22:20.330 [SpringContextShutdownHook] DEBUG org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+2022-06-23 00:22:20.331 [SpringContextShutdownHook] DEBUG org.springframework.context.support.DefaultLifecycleProcessor - Bean 'documentationPluginsBootstrapper' completed its stop procedure
+2022-06-23 00:22:20.332 [SpringContextShutdownHook] DEBUG org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2022-06-23 00:22:20.333 [SpringContextShutdownHook] DEBUG org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans

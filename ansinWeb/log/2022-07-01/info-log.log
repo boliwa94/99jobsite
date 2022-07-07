@@ -1,0 +1,105 @@
+2022-07-01 14:57:52.500 [main] INFO  Ansin.web.AnsinWebApplication - Starting AnsinWebApplication on Dell2022 with PID 17404 (C:\practise\jobsite99\ansinWeb\target\classes started by boliwa in C:\practise\jobsite99\ansinWeb)
+2022-07-01 14:57:52.518 [main] INFO  Ansin.web.AnsinWebApplication - No active profile set, falling back to default profiles: default
+2022-07-01 14:57:57.323 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@31e76a8d' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-01 14:57:57.334 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-01 14:57:57.951 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2022-07-01 14:57:57.965 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2022-07-01 14:57:57.966 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-01 14:57:57.967 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2022-07-01 14:57:58.149 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-07-01 14:57:58.149 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5462 ms
+2022-07-01 14:58:00.768 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-01 14:58:01.003 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ad6ae45, org.springframework.security.web.context.SecurityContextPersistenceFilter@16e195cf, org.springframework.security.web.header.HeaderWriterFilter@6903ed0e, org.springframework.web.filter.CorsFilter@134f8ef6, org.springframework.security.web.authentication.logout.LogoutFilter@687a0e40, Ansin.web.security.JwtLoginFilter@7c4d1c7b, Ansin.web.security.JwtAuthenticationFilter@7893c715, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@74c7522c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@e795a1d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@36f6d25c, org.springframework.security.web.session.SessionManagementFilter@16ea0f22, org.springframework.security.web.access.ExceptionTranslationFilter@67afe909, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@628ba266]
+2022-07-01 14:58:01.257 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-01 14:58:01.626 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-07-01 14:58:01.648 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-07-01 14:58:01.713 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-07-01 14:58:02.618 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: InitUsingPOST_1
+2022-07-01 14:58:02.651 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+2022-07-01 14:58:02.935 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: InitUsingPOST_2
+2022-07-01 14:58:03.069 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: InitUsingPOST_3
+2022-07-01 14:58:03.173 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_2
+2022-07-01 14:58:03.238 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_3
+2022-07-01 14:58:03.256 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: selectUsingPOST_1
+2022-07-01 14:58:03.331 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: InitUsingPOST_4
+2022-07-01 14:58:03.458 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: InitUsingPOST_5
+2022-07-01 14:58:03.528 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: InitUsingPOST_6
+2022-07-01 14:58:03.689 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: InitUsingPOST_7
+2022-07-01 14:58:03.835 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: InitUsingPOST_8
+2022-07-01 14:58:03.920 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: InitUsingPOST_9
+2022-07-01 14:58:03.989 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: InitUsingPOST_10
+2022-07-01 14:58:04.053 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: InitUsingPOST_11
+2022-07-01 14:58:04.126 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: InitUsingPOST_12
+2022-07-01 14:58:04.250 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: initUsingPOST_1
+2022-07-01 14:58:04.391 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2022-07-01 14:58:04.401 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: InitUsingGET_1
+2022-07-01 14:58:04.403 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: initPopUsingPOST_1
+2022-07-01 14:58:04.513 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: searchPopUsingPOST_1
+2022-07-01 14:58:04.681 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: InitUsingPOST_13
+2022-07-01 14:58:04.700 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: b0101onlineofflineUsingPOST_1
+2022-07-01 14:58:04.801 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: registerCompanyUsingPOST_1
+2022-07-01 14:58:04.812 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: searchPostalUsingPOST_1
+2022-07-01 14:58:04.901 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: initUsingPOST_2
+2022-07-01 14:58:04.928 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: searchUsingPOST_1
+2022-07-01 14:58:04.943 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_1
+2022-07-01 14:58:04.977 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: InitUsingPOST_14
+2022-07-01 14:58:04.999 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_4
+2022-07-01 14:58:05.012 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: selectUsingPOST_2
+2022-07-01 14:58:05.060 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: insertUsingPOST_1
+2022-07-01 14:58:05.077 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_2
+2022-07-01 14:58:05.101 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: InitUsingPOST_15
+2022-07-01 14:58:05.116 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_3
+2022-07-01 14:58:05.119 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: IndustrySelectUsingPOST_1
+2022-07-01 14:58:05.204 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: InitUsingPOST_16
+2022-07-01 14:58:05.249 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_5
+2022-07-01 14:58:05.270 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: initUsingPOST_3
+2022-07-01 14:58:05.302 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getPostalUsingPOST_1
+2022-07-01 14:58:05.416 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: initUsingPOST_4
+2022-07-01 14:58:05.542 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getComchargeResultUsingPOST_1
+2022-07-01 14:58:05.572 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getComchargeResultUsingPOST_2
+2022-07-01 14:58:05.615 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getMessageUsingPOST_1
+2022-07-01 14:58:05.632 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: selectUsingPOST_3
+2022-07-01 14:58:05.651 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_2
+2022-07-01 14:58:05.675 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: userConfUsingPOST_1
+2022-07-01 14:58:05.704 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: userInsertUsingPOST_1
+2022-07-01 14:58:05.734 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: InitUsingPOST_17
+2022-07-01 14:58:05.759 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: InitUsingPOST_18
+2022-07-01 14:58:05.790 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: c010101updateUsingPOST_1
+2022-07-01 14:58:05.813 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: uploadUsingPOST_1
+2022-07-01 14:58:06.258 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: InitUsingPOST_19
+2022-07-01 14:58:06.272 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteApplicationUsingPOST_1
+2022-07-01 14:58:06.400 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: InitUsingPOST_20
+2022-07-01 14:58:06.452 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: initLikeUsingPOST_1
+2022-07-01 14:58:06.464 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: initPostUsingPOST_1
+2022-07-01 14:58:06.471 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: insertLikeUsingPOST_1
+2022-07-01 14:58:06.484 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: insertPostUsingPOST_1
+2022-07-01 14:58:06.497 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: updateLikeUsingPOST_1
+2022-07-01 14:58:06.520 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: InitUsingPOST_21
+2022-07-01 14:58:06.546 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getListUsingPOST_1
+2022-07-01 14:58:06.552 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: initLikeUsingPOST_2
+2022-07-01 14:58:06.571 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: initPostUsingPOST_2
+2022-07-01 14:58:06.586 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: insertLikeUsingPOST_2
+2022-07-01 14:58:06.596 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: insertPostUsingPOST_2
+2022-07-01 14:58:06.622 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: updateLikeUsingPOST_2
+2022-07-01 14:58:06.637 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_6
+2022-07-01 14:58:06.649 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: selectUsingPOST_4
+2022-07-01 14:58:06.670 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getInitUsingPOST_1
+2022-07-01 14:58:06.676 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: insertUsingPOST_2
+2022-07-01 14:58:06.686 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPOST_4
+2022-07-01 14:58:06.722 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: initUsingPOST_5
+2022-07-01 14:58:06.869 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: testUsingGET_1
+2022-07-01 14:58:06.875 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: testSpringBootUsingGET_1
+2022-07-01 14:58:06.875 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: testSpringBootUsingHEAD_1
+2022-07-01 14:58:06.877 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: testSpringBootUsingPOST_1
+2022-07-01 14:58:06.878 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: testSpringBootUsingPUT_1
+2022-07-01 14:58:06.878 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: testSpringBootUsingPATCH_1
+2022-07-01 14:58:06.879 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: testSpringBootUsingDELETE_1
+2022-07-01 14:58:06.879 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: testSpringBootUsingOPTIONS_1
+2022-07-01 14:58:06.879 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: testSpringBootUsingTRACE_1
+2022-07-01 14:58:06.937 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2022-07-01 14:58:06.981 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2022-07-01 14:58:06.988 [main] INFO  Ansin.web.AnsinWebApplication - Started AnsinWebApplication in 16.145 seconds (JVM running for 19.498)
+2022-07-01 15:04:01.853 [http-nio-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-01 15:04:01.853 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-07-01 15:04:01.863 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2022-07-01 18:01:22.118 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
